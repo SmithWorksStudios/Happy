@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(73, 73, 73);
 }
 
 header {text-align: center;
     padding: 20px;
+    background-color: #525252;
 }
 
 header .pfp {
@@ -20,5 +21,13 @@ header .pfp {
 
 header h1 {
     font: bold 40px Arial, sans-serif;
+    color: white;
+}
+header h2 {
+    font: bold 30px Arial, sans-serif;
+    color: white;
+}
+header h3 {
+    font: bold 20px Arial, sans-serif;
     color: white;
 }
