@@ -23,11 +23,39 @@ header h1 {
     font: bold 40px Arial, sans-serif;
     color: white;
 }
-header h2 {
+main {
+    max-width: 800px;
+    margin: 0px auto;
+}
+main img {
+    width: 1000px;
+    height: 800px auto;
+    max-width: 100%;
+}
+main h2 {
     font: bold 30px Arial, sans-serif;
     color: white;
 }
-header h3 {
+main h3 {
     font: bold 20px Arial, sans-serif;
     color: white;
+}
+main p {
+    font: 16px Arial, sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+p.caption{
+    font: italic 14px Arial, sans-serif;
+    color: white;
+    padding-bottom: 30px;
+}
+main ol, ul {
+    font: 16px Arial, sans-serif;
+    color: white;
+    line-height: 1.5;
+    margin-left: 20px;
+    background-color: rgb(37, 37, 37);
+    padding-left: 5px;
+    list-style-position: inside;
 }
