@@ -18,6 +18,14 @@ header .pfp {
     background-size: cover;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: rgb(127, 178, 253);
+}
+a.active, a:hover {
+    text-decoration: underline;
+    color: rgb(0, 115, 255);
+}
 
 header h1 {
     font: bold 40px Arial, sans-serif;
@@ -58,4 +66,11 @@ main ol, ul {
     background-color: rgb(37, 37, 37);
     padding-left: 5px;
     list-style-position: inside;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #525252;
+    color: white;
+    font: 14px Arial, sans-serif;
 }
